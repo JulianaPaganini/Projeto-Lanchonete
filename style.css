@@ -1,0 +1,185 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background: rgb(18, 18, 58);
+
+}
+
+button {
+
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+    font-weight: 600;
+    color: black;
+    box-shadow: 0 0 8px lightgreen;
+    transition: all 0.3s linear;
+
+}
+button:hover{
+    cursor: pointer;
+    scale: 1.2;
+    transition: all 0.3s linear;
+    opacity: 0.8;
+    
+}
+
+.button-menu {
+
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    padding: 40px;
+}
+ul{
+
+    display: grid;
+    list-style: none;
+    grid-template-columns: 200px 200px 200px;
+    gap: 15px;
+    justify-content: center;
+    
+}
+
+img{
+
+    width: 100%;
+   border-radius: 5px;
+    
+}
+
+
+
+p {
+
+    color: rgb(3, 255, 3);
+    font-size: 15px;
+    margin-left: 20px;
+  
+}
+
+li{
+
+    border: 3px solid ;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+li:hover{
+
+    cursor:pointer;
+    box-shadow: 0 0 8px #ffff;
+    transition: all 0.3s linear;
+    scale: 1.1;
+}
+/*
+.lanch-bacon-egg {
+
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+    
+    margin-left: 20px;
+   
+
+}
+.lanch-bacon-egg:hover{
+
+    cursor: pointer;
+    box-shadow: 0 0 8px #ffff;
+    scale: 1.7;
+    transition: all 0.3s linear;
+    scale: 1.7;
+}
+
+
+.lanch-monstruoso {
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+}
+
+.lanch-monstruoso:hover{
+
+    cursor: pointer;
+    box-shadow: 0 0 8px #ffff;
+    scale: 1.7;
+    transition: all 0.3s linear;
+}
+
+
+.lanch-bancon {
+
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+}
+
+.lanch-bancon:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px #ffff;
+    scale: 1.7;
+    transition: all 0.3s linear;
+
+}
+
+.lanch-bancon:hover{
+    cursor: pointer;
+    box-shadow: 0 0 8px #ffff;
+    scale: 1.7;
+    transition: all 0.3s linear;
+
+}
+
+.lanch-salada {
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+}
+.lanch-salada:hover{
+
+    cursor: pointer;
+    box-shadow: 0 0 8px #ffff;
+    scale: 1.7;
+    transition: all 0.3s linear;
+
+}
+.lanch-vegan {
+
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+}
+
+.lanch-vegan:hover {
+
+    cursor: pointer;
+    box-shadow: 0 0 8px #ffff;
+    scale: 1.7;
+    transition: all 0.3s linear;
+}
+
+.lanch-vegan-monstruoso {
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+}
+
+.lanch-vegan-monstruoso:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px #ffff;
+    scale: 1.7;
+    transition: all 0.3s linear;
+}
